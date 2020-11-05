@@ -21,16 +21,6 @@ import AppointmentSlotSelector from "./components/AppointmentSlotSelector";
 import { SettingsView } from "./components/SettingsView";
 import { useSettings } from "./hooks/settings";
 
-const DEMAND_TABLE_ID = "tbloVd1I7d6nzEAAr";
-const SLOTS_TABLE_ID = "tblDptdYf2cpB1OBT";
-
-const DEMAND_SLOT_FIELD = "Disponibilités Client";
-const DEMAND_CREATED_AT_FIELD = "Créé à";
-
-const SLOT_DEMAND_FIELD = "Demande";
-const SLOT_START_DATE_FIELD = "Date début";
-const SLOT_END_DATE_FIELD = "Date fin";
-
 const START_OF_DAY = moment.duration({ h: 8 });
 const END_OF_DAY = moment.duration({ h: 20 });
 const SLOT_DURATION = moment.duration({ h: 1 });

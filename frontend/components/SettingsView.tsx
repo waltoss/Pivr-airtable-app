@@ -1,12 +1,5 @@
-import React, { useState } from "react";
-import {
-  Text,
-  Box,
-  TablePicker,
-  useGlobalConfig,
-  FieldPicker,
-} from "@airtable/blocks/ui";
-import { base } from "@airtable/blocks";
+import React from "react";
+import { Text, Box, TablePicker, FieldPicker } from "@airtable/blocks/ui";
 import { useSettings } from "../hooks/settings";
 
 export function SettingsView() {
